@@ -236,6 +236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SL_Grenade
       objectReference: {fileID: 0}
+    - target: {fileID: 5612386848572916955, guid: f52790e4348ea9e4f8306720f84422c9, type: 3}
+      propertyPath: delay
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6705998273633047069, guid: f52790e4348ea9e4f8306720f84422c9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.66
@@ -646,8 +650,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1c479cf794ed74ea212db7b52f002f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jumpHeight: 2
+  speed: 10
+  jumpHeight: 4
   groundDistance: 0.4
   groundLayer:
     serializedVersion: 2
